@@ -58,25 +58,6 @@ AI MUST preserve visual identity and layout intent.
 ### Sections
 - Do not add, remove, or reorder sections unless the section is explicitly named and change is approved.
 
----
-
-## 5. Default AI Assumptions
-
-- HTML structure remains unchanged.
-- CSS remains unchanged.
-- Images remain unchanged.
-- All sections remain in place.
-- Only text content may be edited by default.
-
----
-
-## 6. AI Code Suggestion Modes
-
-### Diff-Based Mode (DEFAULT)
-- Produce minimal, localized diffs only for approved changes.
-
-### Full Code Mode
-- Output entire file content only when explicitly requested.
 
 ---
 
