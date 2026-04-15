@@ -3,17 +3,30 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light only">
   <meta name="description" content="Learn about Chirag Dodiya's background, engineering philosophy, collaboration style, and how he approaches building thoughtful software.">
   <title>About | Chirag Dodiya</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: false,
+      theme: {
+        extend: {}
+      }
+    };
+  </script>
 
+  <script>
+    document.documentElement.classList.remove('dark');
+    document.documentElement.classList.add('light');
+  </script>
 
-  <header class="border-b border-white/10 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
+  <header class="border-b border-slate-200/80 bg-white/80 backdrop-blur sticky top-0 z-50">
     <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-      <a class="text-lg font-semibold tracking-tight text-white hover:text-cyan-300 transition" href="index.html">Chirag Dodiya</a>
+      <a class="text-lg font-semibold tracking-tight text-slate-900 hover:text-cyan-700 transition" href="index.html">Chirag Dodiya</a>
       <nav class="flex items-center gap-6 text-sm font-medium" aria-label="Primary">
-        <a class="text-slate-300 hover:text-white transition" href="index.html">Home</a>
-        <a class="text-white border-b border-cyan-400 pb-0.5" href="about.html" aria-current="page">About</a>
+        <a class="text-slate-600 hover:text-slate-900 transition" href="index.html">Home</a>
+        <a class="text-slate-900 border-b border-cyan-400 pb-0.5" href="about.html" aria-current="page">About</a>
       </nav>
     </div>
   </header>
@@ -21,58 +34,57 @@
   <main>
     <section class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 sm:py-24">
       <div class="max-w-3xl">
-        <p class="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">About</p>
-        <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl">Building software with clarity, care, and momentum.</h1>
-        <p class="mt-6 text-lg leading-8 text-slate-300">I'm Chirag Dodiya, a software engineer focused on creating reliable, human-centered products and systems. I care about strong fundamentals, clean interfaces, and thoughtful collaboration that turns ambiguity into progress.</p>
+        <p class="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-700">About</p>
+        <h1 class="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">Building software with clarity, care, and momentum.</h1>
+        <p class="mt-6 text-lg leading-8 text-slate-700">I'm Chirag Dodiya, a software engineer focused on creating reliable, human-centered products and systems. I care about strong fundamentals, clean interfaces, and thoughtful collaboration that turns ambiguity into progress.</p>
       </div>
     </section>
 
     <section class="mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:px-8">
       <div class="grid gap-6 md:grid-cols-2">
-        <article class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-black/20">
-          <h2 class="text-xl font-semibold text-white">Story / Background</h2>
-          <p class="mt-4 leading-7 text-slate-300">My path into engineering has been shaped by curiosity, iteration, and a desire to build things that are useful and durable. Over time, I've worked across product-focused and technical challenges, learning to balance speed with long-term maintainability.</p>
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-lg shadow-slate-200/60">
+          <h2 class="text-xl font-semibold text-slate-900">Story / Background</h2>
+          <p class="mt-4 leading-7 text-slate-700">My path into engineering has been shaped by curiosity, iteration, and a desire to build things that are useful and durable. Over time, I've worked across product-focused and technical challenges, learning to balance speed with long-term maintainability.</p>
         </article>
-        <article class="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-black/20">
-          <h2 class="text-xl font-semibold text-white">Engineering Philosophy</h2>
-          <p class="mt-4 leading-7 text-slate-300">I believe great engineering starts with understanding the problem deeply, then choosing the simplest solution that can evolve well. I value readability, consistent systems, and decisions that improve both user experience and team velocity.</p>
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-lg shadow-slate-200/60">
+          <h2 class="text-xl font-semibold text-slate-900">Engineering Philosophy</h2>
+          <p class="mt-4 leading-7 text-slate-700">I believe great engineering starts with understanding the problem deeply, then choosing the simplest solution that can evolve well. I value readability, consistent systems, and decisions that improve both user experience and team velocity.</p>
         </article>
       </div>
     </section>
 
     <section class="mx-auto max-w-6xl px-4 pb-16 sm:px-6 lg:px-8">
       <div class="grid gap-6 lg:grid-cols-3">
-        <article class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
-          <h2 class="text-xl font-semibold text-white">How I Work</h2>
-          <p class="mt-4 leading-7 text-slate-300">I prefer to start with context, ask good questions, and define success early. From there, I work in tight feedback loops, ship incrementally, and keep communication clear so progress stays visible.</p>
+        <article class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+          <h2 class="text-xl font-semibold text-slate-900">How I Work</h2>
+          <p class="mt-4 leading-7 text-slate-700">I prefer to start with context, ask good questions, and define success early. From there, I work in tight feedback loops, ship incrementally, and keep communication clear so progress stays visible.</p>
         </article>
-        <article class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
-          <h2 class="text-xl font-semibold text-white">Collaboration &amp; Leadership</h2>
-          <p class="mt-4 leading-7 text-slate-300">I enjoy working across disciplines and helping teams align on goals, tradeoffs, and execution. I try to lead by being dependable, calm under pressure, and willing to unblock others wherever needed.</p>
+        <article class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+          <h2 class="text-xl font-semibold text-slate-900">Collaboration &amp; Leadership</h2>
+          <p class="mt-4 leading-7 text-slate-700">I enjoy working across disciplines and helping teams align on goals, tradeoffs, and execution. I try to lead by being dependable, calm under pressure, and willing to unblock others wherever needed.</p>
         </article>
-        <article class="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
-          <h2 class="text-xl font-semibold text-white">What I Aim For</h2>
-          <p class="mt-4 leading-7 text-slate-300">Products that feel simple to use, systems that are easy to reason about, and teams that can move with confidence. Good engineering should reduce friction for both users and builders.</p>
+        <article class="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+          <h2 class="text-xl font-semibold text-slate-900">What I Aim For</h2>
+          <p class="mt-4 leading-7 text-slate-700">Products that feel simple to use, systems that are easy to reason about, and teams that can move with confidence. Good engineering should reduce friction for both users and builders.</p>
         </article>
       </div>
     </section>
 
     <section class="mx-auto max-w-6xl px-4 pb-20 sm:px-6 lg:px-8">
-      <div class="rounded-3xl border border-cyan-400/20 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 p-8 sm:p-10">
-        <h2 class="text-2xl font-semibold text-white">Let's build something meaningful.</h2>
-        <p class="mt-4 max-w-2xl leading-7 text-slate-300">If you're interested in collaboration, engineering leadership, or a project that needs thoughtful execution, I'd be glad to connect.</p>
-        <a class="mt-6 inline-flex items-center rounded-full bg-cyan-400 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300" href="mailto:hello@chiragdodiya.com">hello@chiragdodiya.com</a>
+      <div class="rounded-3xl border border-cyan-200 bg-gradient-to-r from-cyan-50 to-blue-50 p-8 sm:p-10">
+        <h2 class="text-2xl font-semibold text-slate-900">Let's build something meaningful.</h2>
+        <p class="mt-4 max-w-2xl leading-7 text-slate-700">If you're interested in collaboration, engineering leadership, or a project that needs thoughtful execution, I'd be glad to connect.</p>
+        <a class="mt-6 inline-flex items-center rounded-full bg-cyan-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-cyan-600" href="mailto:hello@chiragdodiya.com">hello@chiragdodiya.com</a>
       </div>
     </section>
   </main>
 
-  <footer class="border-t border-white/10">
+  <footer class="border-t border-slate-200">
     <div class="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-8 sm:px-6 lg:px-8 sm:flex-row sm:items-center sm:justify-between">
-      <p class="text-sm text-slate-400">© 2026 Chirag Dodiya. All rights reserved.</p>
+      <p class="text-sm text-slate-500">© 2026 Chirag Dodiya. All rights reserved.</p>
       <nav class="flex gap-6 text-sm" aria-label="Footer">
-        <a class="text-slate-400 hover:text-white transition" href="index.html">Home</a>
-        <a class="text-slate-400 hover:text-white transition" href="about.html" aria-current="page">About</a>
+        <a class="text-slate-500 hover:text-slate-900 transition" href="index.html">Home</a>
+        <a class="text-slate-900 hover:text-slate-900 transition" href="about.html" aria-current="page">About</a>
       </nav>
     </div>
   </footer>
-
