@@ -1,7 +1,8 @@
-<!DOCTYPE html><html lang="en" class="scroll-smooth"><head>
+<!DOCTYPE html><html lang="en" class="scroll-smooth">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  Chirag Dodiya – Senior Engineer
+  <title>Chirag Dodiya | Senior Engineer</title>
+  <meta name="description" content="Demo portfolio for Chirag Dodiya, a senior software engineer focused on reliable backend systems, scalable platform architecture, and thoughtful product delivery.">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -16,8 +17,23 @@
       document.documentElement.classList.add(theme);
     })();
   </script>
-</head>
-<body class="min-h-screen bg-gradient-to-br from-slate-100 via-white to-blue-50 text-slate-900 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 dark:text-slate-100">
+<body class="min-h-screen bg-gradient-to-br from-slate-100 via-white to-blue-50 text-slate-900 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 dark:text-slate-100">Chirag Dodiya – Senior Engineer
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    }
+  </script>
+  <script>
+    (function() {
+      const stored = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = stored || (prefersDark ? 'dark' : 'light');
+      document.documentElement.classList.add(theme);
+    })();
+  </script>
+
+
   <!-- Navbar -->
   <header class="sticky top-0 z-40 border-b border-white/20 bg-white/70 backdrop-blur-xl dark:border-slate-800/60 dark:bg-slate-950/70">
     <nav>
@@ -72,53 +88,16 @@
       <section id="hero" class="py-16 sm:py-28">
         <div class="grid items-center gap-16 lg:grid-cols-2">
           <div>
-            <span class="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-indigo-50 px-4 py-1.5 text-[11px] sm:text-sm font-semibold uppercase tracking-wider text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-300">Bring structure to your workflows</span>
-            <h1 class="mt-6 text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl bg-gradient-to-r from-slate-900 via-indigo-700 to-blue-600 bg-clip-text text-transparent dark:from-white dark:via-indigo-400 dark:to-blue-400">Chirag Dodiya builds reliable, elegant software for modern product teams.</h1>
-            <p class="mt-6 max-w-xl text-lg text-slate-600 dark:text-slate-300">HTML Starter helps modern teams automate routine tasks, track projects in real time, and ship work faster without chaos.</p>
+            <span class="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-indigo-50 px-4 py-1.5 text-[11px] sm:text-sm font-semibold uppercase tracking-wider text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-300">Available for senior engineering roles · Backend · Platform · Distributed Systems</span>
+            <h1 class="mt-6 text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl bg-gradient-to-r from-slate-900 via-indigo-700 to-blue-600 bg-clip-text text-transparent dark:from-white dark:via-indigo-400 dark:to-blue-400">Chirag Dodiya – Senior Engineer</h1>
+            <p class="mt-6 max-w-xl text-lg text-slate-600 dark:text-slate-300">I build reliable, scalable systems that help products grow without sacrificing stability. My focus is backend engineering, platform thinking, and delivery that stays clear, maintainable, and fast.
+            </p>
             <div class="mt-8 flex flex-wrap items-center gap-4">
-              <a href="#projects" class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 px-6 py-3 text-sm font-semibold text-white shadow-xl transition-all duration-300 hover:scale-[1.05]">Get Started in Minutes</a>
-              <a href="#contact" class="inline-flex items-center gap-2 rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold transition hover:bg-white/60 dark:border-slate-700 dark:hover:bg-slate-800/40">View how it works <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M12.293 5.293a1 1 0 011.414 0L17 8.586a2 2 0 010 2.828l-3.293 3.293a1 1 0 01-1.414-1.414L13.586 11H5a1 1 0 110-2h8.586l-1.293-1.293a1 1 0 010-1.414z"></path></svg></a>
-            </div>
-            <div class="mt-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-slate-500 dark:text-slate-400"><span>Backend engineering • Distributed systems • Full-stack delivery</span><span class="hidden h-1 w-1 rounded-full bg-slate-300 sm:inline-block"></span><span>Demo portfolio content for hiring review</span></div>
-          </div>
-          <div class="relative">
-            <div id="hero-slider" class="relative overflow-hidden rounded-3xl border border-white/30 bg-white/70 shadow-2xl backdrop-blur-xl dark:border-slate-700/50 dark:bg-slate-900/60">
-              <div class="relative h-80 sm:h-96 lg:h-[28rem]">
-                <div class="hero-slide absolute inset-0 opacity-100 transition-opacity duration-700" data-index="0">
-                  <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Plan sprints" class="h-full w-full object-cover">
-                  <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                  <div class="absolute bottom-6 left-6 text-white">
-                    <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Sprint planning</span>
-                    <h3 class="mt-2 text-lg font-semibold">Plan sprints with total clarity</h3>
-                    <p class="text-sm text-white/80">See every task, owner, and deadline in one organized view.</p>
-                  </div>
-                </div>
-                <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-700" data-index="1">
-                  <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Automate handoffs" class="h-full w-full object-cover">
-                  <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                  <div class="absolute bottom-6 left-6 text-white">
-                    <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Automation rules</span>
-                    <h3 class="mt-2 text-lg font-semibold">Automate repetitive handoffs</h3>
-                    <p class="text-sm text-white/80">Turn status updates and assignments into simple rules.</p>
-                  </div>
-                </div>
-                <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-700" data-index="2">
-                  <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Monitor progress" class="h-full w-full object-cover">
-                  <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                  <div class="absolute bottom-6 left-6 text-white">
-                    <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Live reporting</span>
-                    <h3 class="mt-2 text-lg font-semibold">Monitor progress in real time</h3>
-                    <p class="text-sm text-white/80">Track throughput, blockers, and ownership from one dashboard.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="absolute bottom-4 right-4 flex gap-1.5">
-                <button type="button" class="hero-dot h-1.5 w-5 rounded-full bg-blue-400 transition-all" data-index="0" aria-label="Slide 1"></button>
-                <button type="button" class="hero-dot h-1.5 w-2 rounded-full bg-white/60 transition-all hover:bg-white/80" data-index="1" aria-label="Slide 2"></button>
-                <button type="button" class="hero-dot h-1.5 w-2 rounded-full bg-white/60 transition-all hover:bg-white/80" data-index="2" aria-label="Slide 3"></button>
-              </div>
+              <a href="#projects" class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 px-6 py-3 text-sm font-semibold text-white shadow-xl transition-all duration-300 hover:scale-[1.05]">View Projects</a>
+              <a href="#contact" class="inline-flex items-center gap-2 rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold transition hover:bg-white/60 dark:border-slate-700 dark:hover:bg-slate-800/40">Get in Touch <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path d="M12.293 5.293a1 1 0 011.414 0L17 8.586a2 2 0 010 2.828l-3.293 3.293a1 1 0 01-1.414-1.414L13.586 11H5a1 1 0 110-2h8.586l-1.293-1.293a1 1 0 010-1.414z"></path></svg></a>
             </div>
           </div>
+          <div class="relative"></div>
         </div>
       </section>
 
@@ -131,12 +110,11 @@
       </section>
 
       <!-- Features -->
-      <section id="features" class="py-10 sm:py-24">
+      <section id="about" class="py-10 sm:py-24">
         <div class="mx-auto max-w-3xl text-center">
           <h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">About Chirag Dodiya</h2>
-          <p class="mt-4 text-base leading-relaxed text-slate-600 dark:text-slate-400">Organize projects, automate handoffs, and keep your team aligned from one clean, minimal workspace.</p>
+          <p class="mt-4 text-base leading-relaxed text-slate-600 dark:text-slate-400">Senior engineer with demo portfolio content centered on dependable product delivery, strong technical judgment, and a calm approach to building software that lasts. I enjoy working across backend, platform, and full-stack surfaces when the problem calls for it.</p>
         </div>
-        <div class="mt-12 grid gap-6 lg:grid-cols-2"><article class="flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm dark:border-slate-700/50 dark:bg-slate-900/60"><h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">About</h3><p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">Chirag Dodiya is a Senior Engineer who likes solving product and infrastructure problems with calm, maintainable code. He gravitates toward systems that need strong foundations: APIs, service boundaries, deployment workflows, observability, and thoughtful frontend implementation when the product needs it.</p><p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">This demo portfolio highlights the kind of work he typically enjoys: building reliable software, simplifying complex flows, and creating engineering solutions that are easy for teams to understand and evolve over time.</p><p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">He is especially interested in roles where engineering quality, collaboration, and measurable product impact all matter equally.</p></article><article class="flex flex-col gap-4 rounded-2xl border border-white/30 bg-white/70 p-6 shadow-lg backdrop-blur-sm dark:border-slate-700/50 dark:bg-slate-900/60"><h3 class="text-base font-semibold text-slate-900 dark:text-slate-50">Role interests</h3><ul class="space-y-3 text-sm text-slate-700 dark:text-slate-300"><li class="flex items-start gap-2"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-indigo-50 text-indigo-600 dark:bg-indigo-900/50 dark:text-indigo-400"><svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 6l3 3 5-6"></path></svg></span><span>Senior backend roles</span></li><li class="flex items-start gap-2"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-indigo-50 text-indigo-600 dark:bg-indigo-900/50 dark:text-indigo-400"><svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 6l3 3 5-6"></path></svg></span><span>Platform engineering</span></li><li class="flex items-start gap-2"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-indigo-50 text-indigo-600 dark:bg-indigo-900/50 dark:text-indigo-400"><svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 6l3 3 5-6"></path></svg></span><span>Distributed systems and APIs</span></li><li class="flex items-start gap-2"><span class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-indigo-50 text-indigo-600 dark:bg-indigo-900/50 dark:text-indigo-400"><svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 6l3 3 5-6"></path></svg></span><span>Full-stack product engineering</span></li></ul></article></div>
       </section>
 
       <!-- How it works -->
